@@ -1,0 +1,10 @@
+header {
+    @apply flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gray-900 border-b border-gray-700 text-sm py-2.5 sm:py-4 dark:bg-neutral-950 dark:border-neutral-700
+}
+nav {
+    @apply max-w-7xl flex basis-full items-center w-full mx-auto px-4 sm:px-6 lg:px-8
+}
+
+button {
+    @apply w-[2.375rem] h-[2.375rem] inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full text-white hover:bg-white/20 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-1 focus:ring-gray-600
+}
